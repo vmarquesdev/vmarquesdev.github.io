@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "author": "Victor Hugo Marques <vmarques.dev@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.247",
+    "gatsby": "^1.9.273",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-sass": "^1.0.26",
     "react-helmet": "^5.2.0"
   },
   "keywords": [

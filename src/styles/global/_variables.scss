@@ -1,0 +1,30 @@
+// Colors
+$dark-gray: #283339;
+$mid-gray: #455158;
+$gold: #EAB75C;
+
+$border-color: #eee;
+
+// Fonts
+$serif: 'Alegreya';
+$sans-serif: 'Alegreya Sans';
+
+// SassMQ
+$mq-responsive: true;
+$mq-breakpoints: (
+	mobile:   320px,
+	tablet:   740px,
+	tabLarge: 860px,
+	desktop:  980px,
+	wide:     1300px,
+);
+$mq-static-breakpoint: desktop;
+
+// Toggle icon
+$height-icon: 14px;
+$width-line: 26px;
+$height-line: 3px;
+$transition-time: 0.25s;
+$rotation: 45deg;
+$translateY: ($height-icon / 2);
+$translateX: 0;

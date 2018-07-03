@@ -5,5 +5,5 @@ module.exports = {
     description: 'Full-Stack Developer',
     siteUrl: 'http://vmarquesdev.com.br'
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-sass'],
 }
