@@ -9,11 +9,11 @@ import '../styles/main.scss'
 
 // Import Images
 import favicon from '../images/favicon.ico';
-import Logo from '../images/Logo';
-import TwitterIcon from '../images/TwitterIcon';
-import GithubIcon from '../images/GithubIcon';
-import YouTubeIcon from '../images/YouTubeIcon';
-import RssIcon from '../images/RssIcon';
+import Logo from '../images/icons/Logo';
+import LinkedInIcon from '../images/icons/LinkedInIcon';
+import PDFIcon from '../images/icons/PDFIcon';
+import GithubIcon from '../images/icons/GithubIcon';
+import WhatsAppIcon from '../images/icons/WhatsAppIcon';
 
 export default class Template extends Component {
   static propTypes = {
@@ -86,19 +86,19 @@ export default class Template extends Component {
 
               <nav id="navigation" className={`site-nav ${menuClass}`}>
                 <NavLink
-                  to="/menu1/"
+                  to="/projects/"
                   className="site-nav__item"
                   onClick={this.closeMobileMenu}
                 >
-                  Menu 1
+                  Projetos
                 </NavLink>
-                <NavLink
+                {/* <NavLink
                   to="/menu2/"
                   className="site-nav__item"
                   onClick={this.closeMobileMenu}
                 >
                   Menu 2
-                </NavLink>
+                </NavLink> */}
                 <NavLink
                   to="/contact/"
                   className="site-nav__item"
@@ -119,20 +119,20 @@ export default class Template extends Component {
               </div>
 
               <div className="site-footer__social">
-                <a href="https://youtube.com/">
-                  <YouTubeIcon />
+                <a href="https://www.linkedin.com/in/vmarquesdev/" target="_blank">
+                  <LinkedInIcon />
                 </a>
 
-                <a href="https://twitter.com/">
-                  <TwitterIcon />
+                <a href="/VMarquesdev-curriculum.pdf" target="_blank">
+                  <PDFIcon />
                 </a>
 
-                <a href="https://github.com/vmarquesdev">
+                <a href="https://github.com/vmarquesdev" target="_blank">
                   <GithubIcon />
                 </a>
 
-                <a href="/rss.xml">
-                  <RssIcon />
+                <a href="https://api.whatsapp.com/send?phone=5511944544344" target="_blank">
+                  <WhatsAppIcon />
                 </a>
               </div>
             </div>
