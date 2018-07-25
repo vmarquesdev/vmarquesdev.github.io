@@ -1,28 +1,28 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-1fe8b6ec8564b5632c9f.js",
-      "component---src-pages-index-js-1fe8b6ec8564b5632c9f.js.map"
+      "component---src-pages-index-js-581234a6c1ca3dfac2ae.js",
+      "component---src-pages-index-js-581234a6c1ca3dfac2ae.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-1207018a3b1c0e499a63.js",
-      "component---src-pages-contact-js-1207018a3b1c0e499a63.js.map"
+      "component---src-pages-contact-js-f08885ab2179a295e7fc.js",
+      "component---src-pages-contact-js-f08885ab2179a295e7fc.js.map"
     ],
     "path---projects": [
-      "path---projects-eff31a479bcb98baa4a5.js",
-      "path---projects-eff31a479bcb98baa4a5.js.map"
+      "path---projects-65e2697ada249d18de5a.js",
+      "path---projects-65e2697ada249d18de5a.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-5d72b2c3bf437a5d781c.js",
-      "component---src-layouts-index-js-5d72b2c3bf437a5d781c.js.map"
+      "component---src-layouts-index-js-801a5dacfe62f2daf6c8.js",
+      "component---src-layouts-index-js-801a5dacfe62f2daf6c8.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -49,8 +49,8 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-projects-js": [
-      "component---src-pages-projects-js-b763d4ec0bd3860b25b9.js",
-      "component---src-pages-projects-js-b763d4ec0bd3860b25b9.js.map"
+      "component---src-pages-projects-js-abfb5cc7420e7209426e.js",
+      "component---src-pages-projects-js-abfb5cc7420e7209426e.js.map"
     ],
     "app": [
       "app-be202f89701b088dbaa9.js",
