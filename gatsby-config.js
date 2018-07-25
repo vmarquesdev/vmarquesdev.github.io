@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/vmarquesdev.github.io',
   siteMetadata: {
     title: 'VMarques.github.io',
     author: 'Victor Hugo Marques',
