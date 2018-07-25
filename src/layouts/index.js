@@ -50,7 +50,7 @@ export default class Template extends Component {
     return (
       <div>
         <Helmet
-          title="VMarquesdev.com.br"
+          title="VMarquesdev.github.io"
           meta={[
             {
               name: 'description',
@@ -108,7 +108,7 @@ export default class Template extends Component {
           <footer id="colophon" className="site-footer animated fadeInUp">
             <div className="container flex">
               <div className="site-footer__copyright">
-                &copy; {currentYear} VMarquesdev.com.br Made in Brazil.
+                &copy; {currentYear} VMarquesdev.github.io Made in Brazil.
               </div>
 
               <div className="site-footer__social">
@@ -116,7 +116,7 @@ export default class Template extends Component {
                   <LinkedInIcon />
                 </a>
 
-                <a href="/VMarquesdev-curriculum.pdf" target="_blank">
+                <a href="https://drive.google.com/file/d/1t5tQNtNgHTBmiXDFaPslSiZrzj2sFhdZ/view" target="_blank">
                   <PDFIcon />
                 </a>
 

@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 const Contact = () => (
   <div className="container">
     <Helmet
-			title="Contato | VMarquesDev.com.br"
+			title="Contato | VMarquesdev.github.io"
 			meta={[
 				{ name: 'description', content: 'Entre em contato!' },
 			]}

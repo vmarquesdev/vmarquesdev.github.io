@@ -61,7 +61,7 @@ export default class Projects extends Component {
 		return (
 			<div className="container">
 				<Helmet
-					title="Projetos | VMarquesdev.com.br"
+					title="Projetos | VMarquesdev.github.io"
 					meta={[
 						{ name: 'description', content: 'Conheça meus últimos projetos.' },
 					]}
