@@ -10,7 +10,6 @@
 @import 'base/base';
 @import 'base/fonts';
 @import 'base/typography';
-@import 'base/code';
 @import 'base/selection';
 
 // Layout
@@ -21,12 +20,8 @@
 @import 'layout/footer';
 
 // Components
-@import 'components/post';
-@import 'components/author';
-@import 'components/subscribe';
 @import 'components/hero';
+@import 'components/stacks';
+@import 'components/post';
 @import 'components/feed';
 @import 'components/contact';
-@import 'components/slides';
-@import 'components/comments';
-@import 'components/talks';

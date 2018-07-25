@@ -92,13 +92,6 @@ export default class Template extends Component {
                 >
                   Projetos
                 </NavLink>
-                {/* <NavLink
-                  to="/menu2/"
-                  className="site-nav__item"
-                  onClick={this.closeMobileMenu}
-                >
-                  Menu 2
-                </NavLink> */}
                 <NavLink
                   to="/contact/"
                   className="site-nav__item"

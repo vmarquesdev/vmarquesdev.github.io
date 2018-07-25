@@ -14,9 +14,10 @@ const Contact = () => (
 		</header>
 
 		<div className="page__content page__content--contact container--narrow">
-			<h3>Está próximo a Bangkok?<br/> Vamos marcar uma conversa.</h3>
+      {/* <h3>Está próximo a Bangkok?<br/> Vamos marcar uma conversa.</h3> */}
+			<h3>Vamos marcar uma conversa!</h3>
 
-      <p>Não? Isso não é um problema, ainda podemos conversar! A melhor maneira para entrar em conato comigo é através do meu WhatsApp <a href="https://api.whatsapp.com/send?phone=5511944544344" target="_blank">+55 (11) 94454 - 4344</a>. Se preferir você pode me enviar um email:</p>
+      <p>Entre em contato comigo e vamos discutir a respeito de algum projeto! A melhor maneira para entrar em conato comigo é através do meu WhatsApp <a href="https://api.whatsapp.com/send?phone=5511944544344" target="_blank">+55 (11) 94454 - 4344</a>. Se preferir você pode me enviar um email:</p>
       <a href="mailto:vmarquesdev@gmail.com" className="contact__link">
 				vmarquesdev@gmail.com
 			</a>

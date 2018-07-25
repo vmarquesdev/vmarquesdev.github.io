@@ -1,0 +1,125 @@
+.stacks {
+  flex-wrap: wrap;
+  padding: .5em 0;
+  display: flex;
+  width: 100%;
+
+  @include mq($until: tablet) {
+    justify-content: center;
+  }    
+}
+
+.stack__item {
+  margin-right: 1.5rem;
+  text-align: center;
+
+  @include mq($until: tablet) {
+    margin-bottom: 1em;
+    width: 90px;
+  }
+}
+
+.stack-icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.stack-icon--android {
+  width: 30px; height: 35px;
+  background: url('../images/icons/stacks.png') -185px -140px;
+}
+
+.stack-icon--angularjs {
+  width: 33px; height: 35px;
+  background: url('../images/icons/stacks.png') -139px -140px;
+}
+
+.stack-icon--aws {
+  width: 58px; height: 35px;
+  background: url('../images/icons/stacks.png') -5px -5px;
+}
+
+.stack-icon--docker {
+  width: 47px; height: 35px;
+  background: url('../images/icons/stacks.png') -5px -50px;
+}
+
+.stack-icon--elasticsearch {
+  width: 31px; height: 35px;
+  background: url('../images/icons/stacks.png') -185px -95px;
+}
+
+.stack-icon--firebase {
+  width: 25px; height: 35px;
+  background: url('../images/icons/stacks.png') -226px -5px;
+}
+
+.stack-icon--gatsby {
+  width: 35px; height: 35px;
+  background: url('../images/icons/stacks.png') -140px -5px;
+}
+
+.stack-icon--graphql {
+  width: 31px; height: 35px;
+  background: url('../images/icons/stacks.png') -185px -50px;
+}
+
+.stack-icon--java {
+  width: 26px; height: 35px;
+  background: url('../images/icons/stacks.png') -100px -95px;
+}
+
+.stack-icon--postgresql {
+  width: 34px; height: 35px;
+  background: url('../images/icons/stacks.png') -95px -140px;
+}
+
+.stack-icon--meteor {
+  width: 36px; height: 35px;
+  background: url('../images/icons/stacks.png') -54px -95px;
+}
+
+.stack-icon--reactjs {
+  width: 39px; height: 35px;
+  background: url('../images/icons/stacks.png') -5px -95px;
+}
+
+.stack-icon--mongodb {
+  width: 16px; height: 35px;
+  background: url('../images/icons/stacks.png') -226px -50px;
+}
+
+.stack-icon--redis {
+  width: 41px; height: 35px;
+  background: url('../images/icons/stacks.png') -62px -50px;
+}
+
+.stack-icon--nodejs {
+  width: 57px; height: 35px;
+  background: url('../images/icons/stacks.png') -73px -5px;
+}
+
+.stack-icon--neo4j {
+  width: 31px; height: 35px;
+  background: url('../images/icons/stacks.png') -185px -5px;
+}
+
+.stack-icon--ruby {
+  width: 35px; height: 35px;
+  background: url('../images/icons/stacks.png') -140px -50px;
+}
+
+.stack-icon--socketio {
+  width: 35px; height: 35px;
+  background: url('../images/icons/stacks.png') -50px -140px;
+}
+
+.stack-icon--swift {
+  width: 35px; height: 35px;
+  background: url('../images/icons/stacks.png') -5px -140px;
+}
+
+.stack-icon--wordpress {
+  width: 35px; height: 35px;
+  background: url('../images/icons/stacks.png') -140px -95px;
+}

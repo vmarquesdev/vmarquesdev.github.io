@@ -7,36 +7,54 @@ export default class Projects extends Component {
 	constructor(props) {
 		super(props);
 
-		this.buildPostLinks = this.buildPostLinks.bind(this);
+		this.buildProjectLinks = this.buildProjectLinks.bind(this);
 	}
 
-	buildPostLinks() {
-		const postLinks = [];
+	buildProjectLinks() {
+		const links = [];
 
-		let posts = get(this, 'props.data.allMarkdownRemark.edges');
+		let projects = get(this, 'props.data.allMarkdownRemark.edges');
 
-		posts = posts.sort((a, b) => (
+		projects = projects.sort((a, b) => (
 			(a.node.frontmatter.path < b.node.frontmatter.path) ? -1 : 1
 		));
 
-		posts.forEach((post) => {
-			if (post.node.path !== '/404/') {
-				postLinks.push(
-					<article className="feed__item" key={post.node.frontmatter.path}>
-						<Link className="feed__link" to={post.node.frontmatter.path}>
+		projects.forEach((project) => {
+			if (project.node.path !== '/404/') {
+				let stacks = [];
+
+				project.node.frontmatter.stacks.split(',').forEach((stack) => {
+					let stackName = stack.replace(' ', '');
+					let stackClass = "stack-icon stack-icon--" + stackName.toLowerCase();
+
+					stacks.push(
+						<div className="stack__item">
+							<span className={stackClass}></span>
+							<span>{stackName}</span>
+						</div>
+					)
+				})
+
+				links.push(
+					<article className="feed__item" key={project.node.frontmatter.path}>
+						<a className="feed__link" href={project.node.frontmatter.url} target="_blank">
 							<h4 className="feed__title">
-								{post.node.frontmatter.title}
+								{project.node.frontmatter.title}
 							</h4>
-							<time className="feed__time">
-								10 December 2017
-							</time>
-						</Link>
+						</a>
+
+						<div className="page__content" dangerouslySetInnerHTML={{ __html: project.node.html }} />
+
+						<div>
+							<h3>Stacks:</h3>
+							<div className="stacks">{stacks}</div>
+						</div>
 					</article>,
 				);
 			}
 		});
 
-		return postLinks;
+		return links;
 	}
 
 	render() {
@@ -53,7 +71,7 @@ export default class Projects extends Component {
 				</header>
 
 				<div className="feed container--narrow">
-					{this.buildPostLinks()}
+					{this.buildProjectLinks()}
 				</div>
 			</div>
 		);
@@ -70,9 +88,12 @@ export const pageQuery = graphql`
 		allMarkdownRemark {
 			edges {
 				node {
+					html
 					frontmatter {
 						path
 						title
+						url
+						stacks
 					}
 				}
 			}
