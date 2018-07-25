@@ -1,6 +1,6 @@
 ---
 title: Bel Pesce | Institucional
-path: "/projects/06-belpesce"
+path: "/projects/07-belpesce"
 url: "https://belpesce.com.br/"
 stacks: ReactJS, Gatsby, GraphQL
 ---
