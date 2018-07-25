@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'VMarquesdev.com.br',
+    title: 'VMarques.github.io',
     author: 'Victor Hugo Marques',
     description: 'Full-Stack Developer',
-    siteUrl: 'http://vmarquesdev.com.br'
+    siteUrl: 'https://vmarques.github.io'
   },
   plugins: [
     {
