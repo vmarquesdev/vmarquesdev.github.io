@@ -1,16 +1,16 @@
 ---
-title: FazINOVA | Plataforma de Cursos Online
+title: FazINOVA | Online Course Platform
 path: "/projects/01-fazinova-plataform/"
 url: "https://www.fazinova.com.br"
 stacks: Ruby, ReactJS, Redis, NodeJS, ElasticSearch, PostgreSQL, Docker, AWS
 ---
 
-- Plataforma com mais de 200K usuários.
-- Uma das maiores plataformas EAD para cursos online do Brasil.
-- Possui internacionalização em 3 línguas (Português, Inglês e Árabe).
-- Painel de métricas com track de informações baseado em todas interações dos usuários.
-- Machine learning para estudo das informações coletadas na plataforma e geração de relatórios interativos real time.
-- Sistema para pagamentos online integrado com Hotmart.
-- Sistema completo de gestão de conteúdos para os cursos online.
-- Sistema completo EAD para alunos assistirem as aulas.
-- Sistema completo de login e gestão de usuários.
+- Platform with more than 200K users.
+- One of the largest EAD platforms for online courses in Brazil.
+- It has internationalization in 3 languages (Portuguese, English and Arabic).
+- Metrics dashboard with information track based on all user interactions.
+- Machine learning to study the information collected on the platform and generate real time interactive reports.
+- Online payment system integrated with Hotmart.
+- Complete content management system for online courses.
+- Complete EAD system for students to attend classes.
+- Complete login and user management system

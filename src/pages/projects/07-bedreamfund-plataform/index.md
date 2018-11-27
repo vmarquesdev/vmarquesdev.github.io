@@ -1,12 +1,12 @@
 ---
-title: BeDream Fund | Disputa de projetos online
+title: BeDream Fund | Brazilian platform of projects that want to turn startup
 path: "/projects/07-bedreamfund-plataform"
 url: "http://fund.bedream.me/"
 stacks: Ruby, ReactJS, Redis, NodeJS, Neo4j, PostgreSQL, Docker, AWS
 ---
 
-- Plataforma com mais de 450K usuários inscritos, 5K Projetos, +500K votos.
-- Sistema de cadastro e aplicação de projetos.
-- Sistema de votação e competição online.
-- Mini rede social para registro da evolução dos projetos.
-- Sistema para administração dos projetos cadastrados e participantes.
+- Platform with more than 450K registered users, 5K Projects, + 500K votes.
+- System of registration and application of projects.
+- Online voting and competition system.
+- Mini social network to record the evolution of projects.
+- System for administration of registered and participant projects.

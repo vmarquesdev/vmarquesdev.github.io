@@ -1,9 +1,9 @@
 ---
-title: VMarquesdev.github.io | Site Pessoal
+title: VMarquesdev.github.io | Personal Web Site
 path: "/projects/06-vmarquesdev"
 url: "https://vmarquesdev.github.io/"
 stacks: ReactJS, Gatsby, GraphQL
 ---
 
-- Website pessoal responsivo.
-- Código fonte está disponível <a href="https://github.com/vmarquesdev/vmarquesdev.github.io" target="_blank">aqui</a>.
+- Responsive personal website.
+- Source code is available <a href="https://github.com/vmarquesdev/vmarquesdev.github.io" target="_blank">here</a>.

@@ -1,12 +1,13 @@
 ---
-title: COOLRIOUS | Plataforma para cadastro de vídeos
+title: COOLRIOUS | Video Registration Platform
 path: "/projects/09-coolrious-plataform"
 url: "http://coolrious.com/"
 stacks: Ruby, Redis, PostgreSQL, Docker, AWS
 ---
-- Sistema de Autenticação de usuários utilizando:
-    - Email, Facebook e Google Plus.
-- Sistema de cadastro e categorização de vídeos.
-- Sistema de comentários com identificação de automática de links de vídeos.
-- Gerenciador de conteúdo de todas as informações do website.
-- Website responsivo auto ajustável para todos os dispositivos web e mobile.
+
+- User Authentication System using:
+     - Email, Facebook and Google Plus.
+- System of registration and categorization of videos.
+- Comment system with automatic identification of video links.
+- Content manager of all website information.
+- Auto responsive website for all web and mobile devices.

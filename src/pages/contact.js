@@ -4,20 +4,22 @@ import Helmet from 'react-helmet';
 const Contact = () => (
   <div className="container">
     <Helmet
-			title="Contato | VMarquesdev.github.io"
+			title="Contact | VMarquesdev.github.io"
 			meta={[
-				{ name: 'description', content: 'Entre em contato!' },
+				{ name: 'description', content: 'Get in touch' },
 			]}
 		/>
 		<header className="page__header">
-			<h1 className="page__title">Contato</h1>
+			<h1 className="page__title">Contact</h1>
 		</header>
 
 		<div className="page__content page__content--contact container--narrow">
-      {/* <h3>Está próximo a Bangkok?<br/> Vamos marcar uma conversa.</h3> */}
-			<h3>Vamos marcar uma conversa!</h3>
+			<h3>Let’s talk!</h3>
 
-      <p>Entre em contato comigo e vamos discutir a respeito de algum projeto! A melhor maneira para entrar em conato comigo é através do meu WhatsApp <a href="https://api.whatsapp.com/send?phone=5511944544344" target="_blank">+55 (11) 94454 - 4344</a>. Se preferir você pode me enviar um email:</p>
+      <p>I am currently available for selective opportunities. If you want to discuss a project or want to find out more about me or my work, get in touch!</p>
+
+      <p>I living in Gold Coast, QLD, Australia, you can contact me by phone<br/> <a href="https://api.whatsapp.com/send?phone=610478734287" target="_blank">+61 (0) 478 734 287</a>, or through my email:</p>
+
       <a href="mailto:vmarquesdev@gmail.com" className="contact__link">
 				vmarquesdev@gmail.com
 			</a>

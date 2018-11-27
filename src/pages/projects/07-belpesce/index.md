@@ -1,9 +1,9 @@
 ---
-title: Bel Pesce | Institucional
+title: Bel Pesce | Institutional Web Site
 path: "/projects/07-belpesce"
 url: "https://belpesce.com.br/"
 stacks: ReactJS, Gatsby, GraphQL
 ---
 
-- Website institucional responsivo.
-- Website internacionalizado em inglês e português.
+- Responsive institutional website.
+- Website internationalized in English and Portuguese.

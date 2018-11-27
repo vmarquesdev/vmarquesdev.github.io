@@ -5,9 +5,9 @@ url: "https://enkla.com.br"
 stacks: Ruby, ReactJS, Redis, Docker, AWS
 ---
 
-- E-Commerce para venda de livros online.
-- Integração de pagamentos com PagSeguro.
-- Sistema de gestão de compras e gestão de usuários.
-- Sistema de gestão de conteúdo para as informações de todo o site.
-- APIS que fornecem dados para o aplicativo Android e IOS.
-- API para rede social sobre livros para o aplicativo Android e IOS.
+- E-Commerce for online book sales.
+- Integration with payment gateways.
+- System of management purchases and management of users.
+- Content management system for information throughout the site.
+- APIS that provide data for the Android and IOS application.
+- This website has a social club reading club, an API has been developed that provides the social network data for the android and iOS applications

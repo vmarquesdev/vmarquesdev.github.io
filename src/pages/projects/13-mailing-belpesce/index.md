@@ -4,6 +4,7 @@ path: "/projects/13-mailing-belpesce"
 url: "http://mailing.belpesce.com.br/"
 stacks: ReactJS, Gatsby, GraphQL
 ---
-- Melhores padrões para performances em página de vendas.
-- Integração para listagem automática de playlist de vídeos do Youtube.
-- Landing Page responsiva auto ajustável para todos os dispositivos web e mobile.
+
+- Better standards for performances on sales page.
+- Integration for automatic listing of Youtube videos playlist.
+- Landing page responsive auto adjustable for all web and mobile devices.

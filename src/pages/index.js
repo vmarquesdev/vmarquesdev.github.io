@@ -9,14 +9,14 @@ const Index = () => (
 		<Helmet
 			title="VMarquesdev.github.io"
 			meta={[
-				{ name: 'description', content: 'Meu nome é Victor sou Full Stack Developer e trabalho com desenvolvimento de produtos digitas de ponta a ponta.' },
+				{ name: 'description', content: 'My name is Victor I am Full Stack Developer and I work with digital product development from tip to tip.' },
 			]}
 		/>
 		<div className="hero">
-			<span className="hero__label">Olá, meu nome é</span>
+			<span className="hero__label">Hi, my name is</span>
 			<h1 className="hero__title">Victor Marques</h1>
-			<p className="hero__bio">Sou Full Stack Developer e trabalho com desenvolvimento de produtos digitas de ponta a ponta.</p>
-			<Link to="/projects/" className="hero__link">Conheça meus projetos <RightArrow /></Link>
+			<p className="hero__bio">I am Full Stack Developer and I work with digital product development from tip to tip.</p>
+			<Link to="/projects/" className="hero__link">See some projects <RightArrow /></Link>
 		</div>
 	</div>
 )

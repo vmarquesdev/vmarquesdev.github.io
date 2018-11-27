@@ -1,12 +1,12 @@
 ---
-title: Enkla Editora | Aplicativos IOS e Android
+title: Enkla Editora | IOS & Android Mobile Apps
 path: "/projects/05-enkla-app"
 url: "https://enkla.com.br/app"
 stacks: Swift, Android, Java, Firebase
 ---
 
-- Rede social para clube de leitura dos livros da Editora Enkla.
-- Leitura online dos livros através dos aplicativos.
-- Integração com APIS.
+- Social network for club of reading the books of Editora Enkla.
+- Online reading of books through the applications.
+- Integration with APIS.
 - App cache.
 - Lazy Loading.

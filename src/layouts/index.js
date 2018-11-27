@@ -90,14 +90,14 @@ export default class Template extends Component {
                   className="site-nav__item"
                   onClick={this.closeMobileMenu}
                 >
-                  Projetos
+                  Projects
                 </NavLink>
                 <NavLink
                   to="/contact/"
                   className="site-nav__item"
                   onClick={this.closeMobileMenu}
                 >
-                  Contato
+                  Contact
                 </NavLink>
               </nav>
             </div>
@@ -108,7 +108,7 @@ export default class Template extends Component {
           <footer id="colophon" className="site-footer animated fadeInUp">
             <div className="container flex">
               <div className="site-footer__copyright">
-                &copy; {currentYear} VMarquesdev.github.io Made in Brazil.
+                &copy; {currentYear} VMarquesdev.github.io Made with 🖤.
               </div>
 
               <div className="site-footer__social">
@@ -116,7 +116,7 @@ export default class Template extends Component {
                   <LinkedInIcon />
                 </a>
 
-                <a href="https://drive.google.com/file/d/1t5tQNtNgHTBmiXDFaPslSiZrzj2sFhdZ/view" target="_blank">
+                <a href="https://drive.google.com/file/d/1QmMBM-KWhWA1XWWxYy5sUyLkRldL6TAG/view?usp=sharing" target="_blank">
                   <PDFIcon />
                 </a>
 
@@ -124,7 +124,7 @@ export default class Template extends Component {
                   <GithubIcon />
                 </a>
 
-                <a href="https://api.whatsapp.com/send?phone=5511944544344" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=610478734287" target="_blank">
                   <WhatsAppIcon />
                 </a>
               </div>

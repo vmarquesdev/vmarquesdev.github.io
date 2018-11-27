@@ -1,12 +1,12 @@
 ---
-title: FazINOVA Cursos Online | App IOS e Android
+title: FazINOVA Online Courses | App IOS & Android
 path: "/projects/03-fazinova-app"
 url: "https://www.fazinova.com.br/app"
 stacks: Swift, Android, Java, Firebase
 ---
 
-- Aplicativos IOS e Android nativo para plataforma de cursos da FazINOVA.
-- Mais de +200K usuários.
-- Integração com APIS.
+- IOS and Android native applications to FazINOVA's course platform.
+- More than 200K users.
+- Integration with APIS.
 - App cache.
 - Lazy Loading.

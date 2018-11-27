@@ -61,13 +61,13 @@ export default class Projects extends Component {
 		return (
 			<div className="container">
 				<Helmet
-					title="Projetos | VMarquesdev.github.io"
+					title="Projects | VMarquesdev.github.io"
 					meta={[
-						{ name: 'description', content: 'Conheça meus últimos projetos.' },
+						{ name: 'description', content: 'Get to know the latest projects.' },
 					]}
 				/>
 				<header className="page__header">
-					<h1 className="page__title">Projetos</h1>
+					<h1 className="page__title">Projects</h1>
 				</header>
 
 				<div className="feed container--narrow">
